@@ -1,0 +1,15 @@
+N = input('Enter the Limit: ');
+n = -N:N;
+xn = input('Enter the input sequence: ');
+xN = fliplr(xn);
+xo = (xn - xN) / 2;
+subplot(1,2,1);
+stem(n,xn,'r');
+xlabel('n');
+ylabel('x[n]');
+title('Input Signal');
+subplot(1,2,2);
+stem(n,xo,'b');
+xlabel('n');
+ylabel('xo[n]');
+title('Odd Signal');
