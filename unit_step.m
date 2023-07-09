@@ -8,3 +8,14 @@ ylabel('Amplitude');
 grid on;
 title('unit sample sequence')
 
+////////////unit_ramp
+
+
+n=-10:1:10;
+ramp_n=(n>=0).*n;
+stem(n,ramp_n);
+xlabel('Time index');
+ylabel('Amplitude');
+grid on;
+title('unit sample sequence')
+
